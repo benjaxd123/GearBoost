@@ -1,0 +1,110 @@
+ .borde
+{
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pagobox{
+  height: 50%;
+  width: 50%;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .text-block {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding-left: 70%;
+    padding-right: 5px;
+    font-size: smaller;
+    
+  }
+  
+}
+.drophovercustom
+{
+    color:white
+}
+.drophovercustom:hover{
+    background: #65a2ff;
+    color: white;
+    
+}
+
+.sesiontext:hover{
+    color:white;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    transition: 0.3s;
+    
+}
+
+.nodecolink
+{
+    text-decoration: none;
+    font-weight:600;
+}
+
+.header {
+    position: relative;
+    max-width: auto; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .header .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+
+
+  @media screen and (max-width: 1280px) {
+    .header .content {
+        position: relative; /* Position the background text */
+        /*bottom: 0%; /* At the bottom. Use top:0 to append it to the top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        /*color: #f1f1f1; /* Grey text */
+        width: 100%; /* Full width */
+        padding: 20px; /* Some padding */
+        
+        
+      }
+      /*body {
+        background-color: lightgreen;*/
+     
+  }
+
+.mifooter{
+  margin-top: 5%;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  padding: 2%;
+  text-align: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+  
